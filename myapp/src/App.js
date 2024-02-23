@@ -5,6 +5,7 @@ import AboutPage from "./pages/AboutPage";
 import ArticlePage from "./pages/ArticlePage";
 import ArticlesListPage from "./pages/ArticlesListPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import NavBar from "./NavBar";
 
 
 function App()
@@ -14,6 +15,7 @@ function App()
     <div className="App">
     <h1>First React App</h1>
     <div id="page-body">
+      <NavBar></NavBar>
     <Routes>
       <Route path="/" element={<HomePage/>}></Route>
       <Route path="/about" element={<AboutPage/>}></Route>
