@@ -13,7 +13,6 @@ function App()
   return(
    <BrowserRouter>
     <div className="App">
-    <h1>First React App</h1>
     <div id="page-body">
       <NavBar></NavBar>
     <Routes>

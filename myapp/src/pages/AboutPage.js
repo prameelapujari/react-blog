@@ -1,9 +1,9 @@
 function AboutPage(){
     return(
         <>
-        <h4>
+        <h2>
             This is aboutpage of the Article
-        </h4>
+        </h2>
         <p>
         Our mission at Article is to provide insightful and thought-provoking content that inspires, educates, and entertains our readers. 
         With a team of passionate writers and experts in various fields, we strive to deliver high-quality articles that explore a wide range of topics, 
