@@ -1,7 +1,12 @@
+import {Link} from "react-router-dom"
+
+
 function ArticlesListPage(){
     return(
         <>
-        Article List Page
+        <Link>
+        
+        </Link>
         </>
     );
 }
