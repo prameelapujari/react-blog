@@ -1,12 +1,12 @@
-import {Link} from "react-router-dom"
+import articles from "./articles-content";
+import ArticleList from "../component/ArticleList";
 
 
 function ArticlesListPage(){
     return(
         <>
-        <Link>
-        
-        </Link>
+        <h1>List of Articles</h1>
+        <ArticleList articles={articles}></ArticleList>
         </>
     );
 }
