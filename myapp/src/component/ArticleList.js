@@ -1,6 +1,4 @@
-import ArticleList from "../component/ArticleLst";
 import {Link} from "react-router-dom";
-import articles from "../pages/articles-content";
 
 function ArticleList({articles}){
     return(
@@ -9,7 +7,8 @@ function ArticleList({articles}){
         {articles.map((article)=>(
             <Link key={article.name} className="article-list-item" to={`/articles/${article.name}`}>
                 <h3>{article.name}</h3>
-                <p>{article.content[0].sustring(0,98)}...</p>
+                <p>{article.content[0].substring(0,100)}</p>
+              
             </Link>
      ))}
       </>
