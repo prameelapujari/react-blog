@@ -13,8 +13,8 @@ function App()
   return(
    <BrowserRouter>
     <div className="App">
+     <NavBar></NavBar>
     <div id="page-body">
-      <NavBar></NavBar>
     <Routes>
       <Route path="/" element={<HomePage/>}></Route>
       <Route path="/about" element={<AboutPage/>}></Route>
